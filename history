@@ -1,0 +1,65 @@
+  552  cleos get currency balance token card EOS
+  555  cleos push action token transfer '[ "bob", "card", "0.1200 EOS", "transfer test" ]' -p bob@active
+  557  cleos push action token transfer '[ "bob", "card", "0.1200 EOS", "order-bob-1-1200-sell-" ]' -p bob@active
+  558  cleos push action token transfer '[ "bob", "card", "0.1200 SYS", "order-bob-1-1200-sell-" ]' -p bob@active
+  643  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-12EOS" ]' -p bob@active
+  644  cleos push action token transfer '[ "bob", "card", "12.0000 SYS", "deposit-12EOS" ]' -p bob@active
+  645  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-12EOS" ]' -p bob@active
+  647  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-12EOS" ]' -p bob@active
+  648  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit" ]' -p bob@active
+  649  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-12EOS" ]' -p bob@active
+  650  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-12-" ]' -p bob@active
+  651  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-" ]' -p bob@active
+  652  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit_" ]' -p bob@active
+  653  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit" ]' -p bob@active
+  657  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit" ]' -p bob@active
+  658  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-12 eos" ]' -p bob@active
+  661  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-12 eos" ]' -p bob@active
+  664  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-12 eos" ]' -p bob@active
+  667  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-12 eos" ]' -p bob@active
+  670  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-12 eos" ]' -p bob@active
+  673  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-12 eos" ]' -p bob@active
+  676  cleos push action token transfer '[ "bob", "card", "10.0000 EOS", "deposit-10 eos" ]' -p bob@active
+  679  cleos push action token transfer '[ "bob", "card", "10.0000 EOS", "deposit-10 eos" ]' -p bob@active
+  683  cleos push action token transfer '[ "bob", "card", "10.0000 EOS", "deposit-10 eos" ]' -p bob@active
+  685  cleos push action token transfer '[ "bob", "card", "0.0001 EOS", "withdraw-" ]' -p bob@active
+  686  cleos push action token transfer '[ "bob", "card", "0.0001 EOS", "withdraw-" ]' -p bob@active
+  687  cleos push action token transfer '[ "alice", "card", "10.0000 EOS", "deposit-10 eos" ]' -p alice@active
+  691  cleos push action token transfer '[ "alice", "card", "10.0000 EOS", "deposit-10 eos" ]' -p alice@active
+  693  cleos push action token transfer '[ "alice", "card", "10.0000 EOS", "deposit-10 eos" ]' -p alice1@active
+  702  cleos push action token transfer '[ "alice", "card", "10.0000 EOS", "deposit-10 eos" ]' -p alice1@active
+  703  cleos push action token transfer '[ "alice", "card", "10.0000 EOS", "deposit-10 eos" ]' -p alice@active
+  705  cleos push action token transfer '[ "alice", "card", "0.0001 EOS" "withdraw-" ]' -p alice@active
+  706  cleos push action token transfer '[ "alice", "card", "0.0001 EOS" "withdraw-" ]' -p alice@active
+  709  cleos push action token transfer '[ "alice", "card", "0.0001 EOS" "withdraw-" ]' -p alice@active
+  713  cleos push action token transfer '[ "alice", "card", "0.0001 EOS" "withdraw-" ]' -p alice@active
+  714  cleos push action token transfer '[ "alice", "card", "10.0000 EOS", "deposit-10 eos" ]' -p alice@active
+  715  cleos push action token transfer '[ "alice", "card", "12.0000 EOS", "deposit-12 eos" ]' -p alice@active
+  716  cleos push action token transfer '[ "bob", "card", "12.0000 EOS", "deposit-12 eos" ]' -p bob@active
+  718  cleos push action token transfer '[ "alice", "card", "0.0001 EOS" "withdraw-" ]' -p alice@active
+  719  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "withdraw-" ]' -p dev@active
+  720  cleos push action token transfer '[ "dev", "card", "12.0000 EOS" "deposit-" ]' -p dev@active
+  721* cleos push action token transfer '[ "debug", "card", "12.0000 EOS" "deposit-" ]' -p @active
+  722  cleos push action token transfer '[ "debug", "card", "12.0000 EOS" "deposit-" ]' -p debug@active
+  731  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  732  cleos push action token transfer '[ "dev", "card", "8.0000 EOS" "deposit-" ]' -p dev@active
+  734  cleos push action token transfer '[ "alice", "card", "14.0000 EOS" "deposit-" ]' -p alice@active
+  739  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  740  cleos push action token transfer '[ "bob", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p bob@active
+  744  cleos push action token transfer '[ "bob", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p bob@active
+  745  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  751  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  754  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  757  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  760  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  763  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  766  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  769  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  772  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  776  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "start-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  779  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "123-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  780  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "123-0-5000-3-dev-bob-alice-" ]' -p dev@active
+  781  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "123test ssss" ]' -p dev@active
+  785  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "123test ssss" ]' -p dev@active
+  788  cleos push action token transfer '[ "dev", "card", "0.0001 EOS" "123test ssss" ]' -p dev@active
+  912  history | grep "card" | grep "token" >> history
